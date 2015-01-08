@@ -13,6 +13,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+        System.out.println("Test committed");
         setContentView(R.layout.activity_main);
     }
 
