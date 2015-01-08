@@ -14,6 +14,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         System.out.println("Test committed");
+        System.out.println("Test committed2");
+
         setContentView(R.layout.activity_main);
     }
 
